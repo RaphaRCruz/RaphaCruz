@@ -1,0 +1,67 @@
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:300,400,500,700");
+
+body {
+  background-color: rgba(0,75,0,0.1);
+  color: rgba(10,10,10,1.0);
+  font-family: 'Lora', 'Times New Roman', Times, serif;
+  line-height: normal;
+  font-size: 17px;
+}
+
+h1 {
+  color: rgb(0,0,0);
+  font-family: 'Lora', 'Times New Roman', Times, serif;
+  font-size: 35px;
+  line-height: normal;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(40,40,40);
+}
+
+#container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.card {
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  padding: 40px;
+  background-color: white;
+  border-radius: 55px;
+  margin: 20px;
+}
+
+.btn:hover {
+  background-color: rgba(250,250,250,0.1);;
+  padding: 20px;
+  color: rgb(95,35,40);
+  font-weight: lighter;
+  border-radius: 55px;
+}
+
+img {
+  width: 125px;
+  height: 125px;
+  border-radius: 55px;
+}
+
+p {
+  margin-bottom: 50px;
+}
+
+.list-inline {
+  list-style: none;
+  padding: 0;
+}
+
+.list-inline li {
+  display: inline;
+}
+
+.list-inline li i {
+  font-size: 50px;
+  color: rgb(55,55,55);
+  margin-right: 20px;
+}
